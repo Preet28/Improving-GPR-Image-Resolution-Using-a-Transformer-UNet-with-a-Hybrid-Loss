@@ -64,21 +64,6 @@ The **Transformer-UNet with UpCUP Decoder** combines:
 
 ---
 
-###  Hybrid Loss Function
-
-A novel **spatial–spectral hybrid loss** balances pixel-level and frequency-domain consistency:  
-
-\[
-\mathcal{L} = \mathcal{L}_{Huber} + \lambda_{fk}\mathcal{L}_{fk}
-\]
-
-- **Huber Loss:** robust spatial reconstruction  
-- **f–k Loss:** enforces spectral coherence in the frequency–wavenumber domain  
-
-This ensures sharper, spectrally accurate radargrams with minimal artifacts.
-
----
-
 ###  Training Configuration
 | Parameter | Value |
 |------------|--------|
