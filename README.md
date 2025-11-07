@@ -58,7 +58,8 @@ The **Transformer-UNet with UpCUP Decoder** combines:
 - CUP Decoder – Cascaded Upsampling via Convolution + Pixel Shuffle  
 - Skip Connections – detail preservation  
 
-![Architecture Placeholder](images/architecture_diagram.png)  
+<img width="809" height="778" alt="image" src="https://github.com/user-attachments/assets/4ccad614-3754-4d12-a193-263a3e72e36f" />
+
 *Figure: Proposed Transformer-UNet architecture with Transformer bottleneck and CUP-based upsampling.*
 
 ---
